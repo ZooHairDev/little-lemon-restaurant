@@ -52,6 +52,14 @@ nav {
   align-items: center;
 }
 
+h1, h2 {
+  font-family: 'Markazi Text', sans-serif;;
+}
+
+button {
+  font-family: 'Markazi Text', sans-serif;;
+}
+
 ul {
   list-style: none;
   padding: 20;
@@ -67,4 +75,42 @@ a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #495E57;
+}
+
+.hero h1 {
+  font-size:xxx-large;
+  color: #F4CE14;
+  height: 20px;
+}
+
+.hero h2, p {
+  color: white;
+}
+
+button {
+  font-family: 'Karla';
+  background-color: #F4CE14;
+  border-radius: 10px;
+  border: 300px;
+  height: 30px;
+  width: 150px;
+}
+
+.hero-description {
+  font-family: 'Karla';
+  display: block;
+  width: 300px;
+}
+
+.hero-img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
 }
